@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arham_Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #61677A;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .left:hover {
+            color: #fba457;
+            /* font-size: 1.6rem; */
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 59px;
+            background-color: #4b65bc
+            
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        nav ul li a:hover {
+            color: #fba457;
+            font-size: 1.04rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .first {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0;
+            align-items: center;
+        }
+
+        .first>div {
+            width: 40%;
+        }
+
+        .leftsection {
+            font-size: 2.5rem;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background: #b5b5b5;
+            color: white;
+            border: 2px solid white;
+            border-radius: 8px;
+            font-size: 15px;
+        }     
+
+        .rightsection img {
+            width: 80%;
+            padding-left: 100px;
+        }
+
+        .colors {
+            color: #fba457
+        }
+
+        .text-gray {
+            color: #b5b5b5;
+        }
+
+        #element {
+            color: #fba457
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9199b3;
+            height: 1px;
+            margin: 20px 40px;
+        }
+
+        .secondsection {
+            max-width: 90vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection {
+            font-size: 1.2rem;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 55px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 70px;
+            width: 1px;
+            background: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 30px;
+            position: relative;
+            top: -32px;
+            left: -5px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 50px;
+            width: 150px;
+            font-size: 15px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 20px;
+            color: #b5b5b5;
+            width: 150px;
+            font-size: 13px;
+        }
+
+        footer {
+            background: #4b65bc;
+        }
+
+        .footer {
+            display: flex;
+            padding: 25px 122px;
+            justify-content: space-evenly;
+        }
+
+        footer li {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 200px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: #b5b5b5;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Arham's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftsection">
+                Hi, My Name is <span class="colors">Arham Khan</span>
+                <div>and I am a Passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+
+
+
+            <div class="rightsection">
+                <img src="/dev.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="/developer.png" alt="" srcset="">
+                    <div class="vertical-title">
+                        html Developer (2021-2023)
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, excepturi voluptates! At
+                            mollitia error quidem deleniti rerum esse corrupti qui?
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/developer.png" alt="" srcset="">
+                    <div class="vertical-title">
+                        html Developer (2021-2023)
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, excepturi voluptates! At
+                            mollitia error quidem deleniti rerum esse corrupti qui?
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/developer.png" alt="" srcset="">
+                    <div class="vertical-title">
+                        html Developer (2021-2023)
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, excepturi voluptates! At
+                            mollitia error quidem deleniti rerum esse corrupti qui?
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/developer.png" alt="" srcset="">
+                    <div class="vertical-title">
+                        html Developer (2021-2023)
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, excepturi voluptates! At
+                            mollitia error quidem deleniti rerum esse corrupti qui?
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="/developer.png" alt="" srcset="">
+                    <div class="vertical-title">
+                        html Developer (2021-2023)
+                        <div class="vertical-desc">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, excepturi voluptates! At
+                            mollitia error quidem deleniti rerum esse corrupti qui?
+                        </div>
+                    </div>
+                </div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+                <div class="vertical"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Arham's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; www.Arhamsportfolio.com | All right reserved</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
